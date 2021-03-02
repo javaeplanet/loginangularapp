@@ -9,14 +9,14 @@ export class LoginService {
 
 
   constructor() { }
-  loginForm :FormGroup= new FormGroup(
-    {
-      $key: new FormControl(null),
-      email: new FormControl('', Validators.email),
-      password:new FormControl('', [Validators.required,Validators.minLength(6)])
+  // loginForm :FormGroup= new FormGroup(
+  //   {
+  //     $key: new FormControl(null),
+  //     email: new FormControl('', Validators.email),
+  //     password:new FormControl('', [Validators.required,Validators.minLength(6)])
 
-    }
-  )
+  //   }
+  // )
 
 
 
